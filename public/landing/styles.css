@@ -360,3 +360,5 @@ footer.foot {
   color: rgba(243, 240, 231, 0.72);
   font-size: 0.9rem;
 }
+
+.social-btn svg[stroke] { fill: none; }
