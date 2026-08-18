@@ -1,3 +1,40 @@
+/* ---------- Fuentes Gilmer ---------- */
+@font-face {
+  font-family: 'Gilmer';
+  src: url('fonts/Gilmer-Regular.woff2') format('woff2'),
+       url('fonts/Gilmer-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilmer';
+  src: url('fonts/Gilmer-Medium.woff2') format('woff2'),
+       url('fonts/Gilmer-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilmer';
+  src: url('fonts/Gilmer-Bold.woff2') format('woff2'),
+       url('fonts/Gilmer-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilmer';
+  src: url('fonts/Gilmer-Heavy.woff2') format('woff2'),
+       url('fonts/Gilmer-Heavy.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --g-teal: #0b4f4a;
   --g-teal-deep: #073531;
@@ -6,8 +43,8 @@
   --g-cream: #f3f0e7;
   --g-sand: #e6e0cf;
   --g-ink: #14201e;
-  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
-  --font-body: "Barlow", system-ui, sans-serif;
+  --font-display: "Gilmer", system-ui, sans-serif;
+  --font-body: "Gilmer", system-ui, sans-serif;
 }
 
 * { -webkit-font-smoothing: antialiased; }
